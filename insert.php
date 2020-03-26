@@ -70,7 +70,7 @@
 
   // Step 10: Write the correct SQL statement that will insert the new user (you must bind the parameters (placeholders)) (replace null with the correct logic)
   $sql = "
-    INSERT INTO members (
+    INSERT INTO users (
       username,
       password
     ) VALUES (

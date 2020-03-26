@@ -13,7 +13,7 @@
   $conn = connect();
   
   // Step 1: Create our SQL with an username placeholder (bound parameter)
-  $sql = "SELECT * FROM members WHERE username = :username";
+  $sql = "SELECT * FROM users WHERE username = :username";
   
   // Step 2: Prepare the SQL (replace null with the correct logic)
   $stmt = $conn->prepare($sql);
